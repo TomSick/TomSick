@@ -1,14 +1,350 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>Tom Sickenberger</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tom Sickenberger | Web Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/master.css">
 </head>
 
-<body id="home">
+<body>
+<!-- Hero -->
+  <section class="hero is-info is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-size-1">
+          Hi, I'm Tom Sickenberger
+        </h1>
+  			<br>
+        <h2 class="subtitle is-size-2.5">
+          I'm a recent grad looking to find my way in the world as a web developer. I've always had a passion for technology and an intense drive to create which led me to web development. I earned my bachelor's from SNHU in 2018 graduating at the top of my class with a 3.9 GPA. I feel the most in my element when on a project giving it my all to reach a goal. </h2>
+        <div class="content">
+          <p class="subtitle is-size-2.5">
+             I strive to constantly improve my knowledge and abilities and am looking for an opportunity that will give me the chance to really grow my skills and show what I'm capable of.
+          </p>
+        </div>
 
-	<h1>HTML5 boilerplate</h1>
+        <div class="buttons">
+          <p class="field">
+            <a class="button is-medium is-rounded is-info is-inverted is-outlined" href="" target="_blank">
+              <span class="icon is-small"><i class="far fa-file fa-fw"></i></span><span>Resume</span>
+            </a>
+            <a class="button is-medium is-rounded is-info is-inverted is-outlined" href="https://github.com/TomSick" target="_blank">
+              <span class="icon is-small"><i class="fab fa-github fa-fw"></i></span><span>GitHub</span>
+            </a>
+            <a class="button is-medium is-rounded is-info is-inverted is-outlined" href="https://www.linkedin.com/in/tomsickenberger/" target="_blank">
+              <span class="icon is-small"><i class="fab fa-linkedin-in fa-fw"></i></span><span>LinkedIn</span>
+            </a>
+            <a class="button is-medium is-rounded is-info is-inverted is-outlined" href="https://aemail.com/WEJ">
+              <span class="icon is-small"><i class="far fa-envelope fa-fw"></i></span><span>Email</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- About me-->
+<section class="section has-background-light">
+  <div class="container">
+    <div class="tile is-ancestor">
+      <div class="tile is-child box">
+        <p class="title has-text-primary">About Me</p>
+        <p>  I was born and raised on Long Island, New York. I have an overwhelming desire to create which I channel into coding, photography, and gaming. While my design sense is minamilst, I have a love for over the top music and media.</p>
+      </div>
+
+      <div class="tile is-child box">
+        <p class="title has-text-primary">Languages</p>
+        <ul>
+          <li>CSS(3)</li>
+          <li>HTML(5)</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>SQL / SQLite</li>
+        </ul>
+      </div>
+
+      <div class="tile is-child box">
+        <p class="title has-text-primary">Tools</p>
+        <div class="columns">
+          <div class="column">
+            <ul>
+              <li>Atom</li>
+              <li>Bootstrap</li>
+              <li>Bulma</li>
+              <li>Github</li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <li>Linux Mint</li>
+              <li>PyCharm</li>
+              <li>SQLite Studio</li>
+              <li>Vue.JS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio -->
+<section class="section projects has-background-light has-text-centered">
+  <div class="container is-narrow">
+    <h1 class="title is-size-2-desktop is-size-3-mobile">Some of my previous projects</h1>
+  </div>
+</section>
+
+<section class="section has-background-light">
+  <div class="container">
+    <div class="columns">
+
+<!-- Portfolio -->
+     <div class="column is-3">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+             <span>My Portfolio Website</span>
+             <span class="is-pulled-right">
+               <span class="tag is-danger">Personal Project</span>
+             </span>
+            </p>
+          </header>
+          <div class="card-content">
+            <figure class="image">
+              <img src="images/portfolio.jpg" alt="portfolio thumbnail">
+            </figure>
+            <div class="content">
+              <p> The GitHub repository for this site which was made with the Bulma CSS framework.</p>
+              <div class="tags">
+                <span class="tag is-primary">HTML</span>
+                <span class="tag is-success">CSS</span>
+              </div>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a class="button is-block is-medium is-danger" target="_blank" href="https://github.com/TomSick/TomSick.github.io"><span>View</span></a>
+          </footer>
+        </div>
+      </div>
+
+<!-- CK2 Python project -->
+      <div class="column is-3">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              <span>CK II Database</span>
+              <span class="is-pulled-right">
+                <span class="tag is-danger">Personal Project</span>
+              </span>
+            </p>
+          </header>
+          <div class="card-content">
+            <figure class="image">
+              <img src="images/CKpython.jpg" alt="CK2 DB thumbnail">
+            </figure>
+          <div class="content">
+            <p> Using python to compile an SQLite database of Crusader Kings II characters from game files.</p>
+            <div class="tags">
+              <span class="tag is-warning">Python</span>
+              <span class="tag is-link">SQLite</span>
+            </div>
+          </div>
+        </div>
+        <footer class="card-footer">
+          <a class="button is-block is-medium is-danger" target="_blank" href="https://github.com/TomSick/CK2_db_project">View</a>
+        </footer>
+        </div>
+      </div>
+
+<!-- Wireframe -->
+      <div class="column is-3">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              <span>GoodEats Wireframe</span>
+              <span class="is-pulled-right">
+                <span class="tag is-info">School Project</span>
+              </span>
+            </p>
+          </header>
+          <div class="card-content">
+            <figure class="image">
+              <img src="images/GEwarframe.jpg" alt="GoodEats thumbnail">
+            </figure>
+            <div class="content">
+              <p>An interactive wireframe prototype for a mobile application made using InVision.</p>
+              <div class="tags">
+                <span class="tag is-info">Wireframe</span>
+                <span class="tag is-danger">UX Design</span>
+              </div>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a class="button is-block is-medium is-danger" target="_blank" href="https://invis.io/JSQB1FW2HR9">View</a>
+          </footer>
+        </div>
+      </div>
+
+<!-- IT-420 Aquatica -->
+      <div class="column is-3">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              <span>Aquatica Website</span>
+              <span class="is-pulled-right">
+                <span class="tag is-info">School Project</span>
+              </span>
+            </p>
+          </header>
+          <div class="card-content">
+            <figure class="image">
+              <img src="images/Aquatica.jpg" alt="Aquatica thumbnail">
+            </figure>
+            <div class="content">
+              <p> An E-commerce website made with Wix website builder.</p>
+              <div class="tags">
+                <span class="tag is-primary">HTML</span>
+                <span class="tag is-danger">CMS</span>
+              </div>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a class="button is-block is-medium is-danger" target="_blank" href="https://tomsickenberger.wixsite.com/aquaticasite">View</a>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+<!-- Start of row 2 -->
+    <div class="columns">
+<!--IT-467 E-commerce EM-->
+      <div class="column is-3">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              <span>Eldritch Market</span>
+              <span class="is-pulled-right">
+                <span class="tag is-info">School Project</span>
+              </span>
+            </p>
+          </header>
+
+          <div class="card-content">
+            <figure class="image">
+              <img src="images/EM.jpg" alt="Eldritch Market thumbnail">
+            </figure>
+            <div class="content">
+              <p> An E-commerce website made with Wix website builder.</p>
+              <div class="tags">
+                <span class="tag is-primary">HTML</span>
+                <span class="tag is-danger">CMS</span>
+              </div>
+            </div>
+          </div>
+
+          <footer class="card-footer">
+            <a class="button is-block is-medium is-danger" target="_blank" href="https://tomsickenberger.wixsite.com/it-467projectsite">View</a>
+          </footer>
+        </div>
+      </div>
+<!-- PhoneGap Project-->
+      <div class="column is-3">
+       <div class="card">
+         <header class="card-header">
+             <p class="card-header-title">
+              <span>To Do List</span>
+              <span class="is-pulled-right">
+                <span class="tag is-info">School Project</span>
+              </span>
+             </p>
+         </header>
+         <div class="card-content">
+           <figure class="image">
+             <img src="images/todolist.jpg" alt="To-do List thumbnail">
+           </figure>
+           <div class="content">
+             <p> A simple mobile web-based app for andriod made using Adobe PhoneGap.</p>
+             <div class="tags">
+               <span class="tag is-primary">HTML</span>
+               <span class="tag is-success">CSS</span>
+               <span class="tag is-warning">JavaScript</span>
+               <span class="tag is-link">Android</span>
+             </div>
+           </div>
+         </div>
+         <footer class="card-footer">
+             <a class="button is-block is-medium is-danger" href="https://github.com/TomSick/SchoolProjects/tree/master/TDL%20PhoneGap%20project" target="_blank"><span>View</span></a>
+         </footer>
+       </div>
+      </div>
+<!--IT-270 WebSite -->
+      <div class="column is-3">
+       <div class="card">
+         <header class="card-header">
+           <p class="card-header-title">
+             <span>Long Island Landscaping</span>
+             <span class="is-pulled-right">
+               <span class="tag is-info">School Project</span>
+             </span>
+           </p>
+         </header>
+         <div class="card-content">
+           <figure class="image">
+             <img src="images/LIland.jpg" alt="LI Landscaping thumbnail">
+           </figure>
+           <div class="content">
+             <p> A simple website made for a school project.</p>
+             <div class="tags">
+               <span class="tag is-primary">HTML</span>
+               <span class="tag is-success">CSS</span>
+             </div>
+           </div>
+         </div>
+         <footer class="card-footer">
+           <a class="button is-block is-medium is-danger" target="_blank" href="http://tomsickenbergerit270.altervista.org/index.html" >View</a>
+         </footer>
+       </div>
+      </div>
+<!-- Java program -->
+      <div class="column is-3">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              <span>Java Login Program</span>
+              <span class="is-pulled-right">
+                <span class="tag is-info">School Project</span>
+              </span>
+            </p>
+          </header>
+          <div class="card-content">
+            <figure class="image">
+              <img src="images/javalogin.jpg" alt="Java thumbnail">
+            </figure>
+            <div class="content">
+              <p> A simple Java program that authenticates credentials and user role.</p>
+              <div class="tags">
+                <span class="tag is-warning">Java</span>
+              </div>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a class="button is-block is-medium is-danger" target="_blank" href="https://github.com/TomSick/SchoolProjects/tree/master/NetBeans%20login%20project">View</a>
+          </footer>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="has-background-light has-text-centered">
+  <p>© 2019 Tom Sickenberger.<p>
+</footer>
 
 </body>
 </html>

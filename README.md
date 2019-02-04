@@ -1,2 +1,4 @@
 # TomSick
-Personal website/portfolio
+Personal website/portfolio.
+
+Built using the Bulma CSS framework.
